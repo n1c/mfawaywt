@@ -1,0 +1,16 @@
+
+$font-size-base: 18px;
+$link-hover-decoration: none;
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.mt {
+    margin-top: 5px;
+}
+
+.vertical-align {
+    @media (min-width: $screen-md-min) {
+        display: flex;
+        align-items: center;
+    }
+}
